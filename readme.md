@@ -10,3 +10,5 @@ python3 log_watcher.py training.log --custom-metrics custom_metrics.json
     "CustomLoss": "custom_loss[:\\s]+([\\d\\.]+)",
     "CustomMetric": "metric[:\\s]+([\\d\\.]+)"
 }
+
+# --custom-metrics custom_metrics.json this is optional and for more customization
